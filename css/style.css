@@ -238,3 +238,168 @@ body {
     color: #333;
     margin: 0;
 }
+
+.projects-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.projects-subtitle {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-size: 14px;
+    color: #666;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 20px;
+
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-text {
+    padding: 20px;
+    position: relative;
+    text-align: left;
+}
+
+.project-text h3 {
+    margin: 0 0 6px;
+    font-size: 16px;
+    color: #222;
+}
+
+.project-text p {
+    margin: 0;
+    font-size: 13px;
+    color: #888;
+}
+
+.arrow {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 18px;
+    color: #bbb;
+}
+
+.Counter-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #F4F0EC;
+}
+
+.Blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.contact-image {
+    width: 1199px;
+    height: 374px;
+    margin-left: 360px;
+    margin-right: 450px;
+}
+
+.site-footer {
+    background-color: #fff;
+    padding: 60px 40px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    border-top: 1px solid #eee;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-col {
+    flex: 1 1 200px;
+    min-width: 200px;
+}
+
+.footer-logo-img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.footer-desc {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.footer-socials a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-col h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+
+
+
+
+.footer-col p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+}
